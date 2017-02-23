@@ -1,0 +1,28 @@
+name       : something-for-reddit
+version    : 0.2
+release    : 1
+source     :
+    - https://github.com/samdroid-apps/something-for-reddit/archive/v0.2.tar.gz : b7dcdbfcef699993ad70207ba11938b52d088a39e27ac1a8198f074df30f2e1d
+license    : GPL-3.0
+component  : network.clients
+summary    : A simple Reddit client for GNOME, built for touch, mouse and VIM keyboards.
+description: |
+    A simple Reddit client for GNOME, built for touch, mouse and VIM keyboards.
+builddeps  :
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libsoup-2.4)
+    - autoconf-archive
+    - gnome-common
+    - python-arrow
+    - python-markdown
+    - ruby-sass
+rundeps    :
+    - python-arrow
+    - python-markdown
+    - python3-gobject
+setup      : |
+    %autogen
+build      : |
+    %make
+install    : |
+    %make_install
