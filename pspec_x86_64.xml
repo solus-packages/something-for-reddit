@@ -2,15 +2,15 @@
     <Source>
         <Name>something-for-reddit</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Jarno Turkki</Name>
+            <Email>watpi@posteo.net</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>network.clients</PartOf>
         <Summary xml:lang="en">A simple Reddit client for GNOME, built for touch, mouse and VIM keyboards.</Summary>
         <Description xml:lang="en">A simple Reddit client for GNOME, built for touch, mouse and VIM keyboards.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>something-for-reddit</Name>
@@ -19,29 +19,39 @@
 </Description>
         <PartOf>network.clients</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/reddit-is-gtk</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/Makefile</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/Makefile.am</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/Makefile.in</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/__init__.cpython-36.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/aboutrow.cpython-36.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/aboutrow.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/api.cpython-36.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/api.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/buttons.cpython-36.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/buttons.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/comments.cpython-36.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/comments.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/emptyview.cpython-36.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/emptyview.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/gtkutil.cpython-36.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/gtkutil.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/identity.cpython-36.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/identity.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/identitybutton.cpython-36.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/identitybutton.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/main.cpython-36.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/main.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/markdownpango.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/markdownpango.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/mediapreview.cpython-36.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/mediapreview.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/newmarkdown.cpython-36.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/newmarkdown.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/palettebutton.cpython-36.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/palettebutton.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/posttopbar.cpython-36.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/posttopbar.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/readcontroller.cpython-36.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/readcontroller.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/settings.cpython-36.opt-1.pyc</Path>
@@ -50,39 +60,60 @@
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/subentry.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/sublist.cpython-36.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/sublist.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/sublistrows.cpython-36.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/sublistrows.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/submit.cpython-36.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/submit.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/webviews.cpython-36.opt-1.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/__pycache__/webviews.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/aboutrow.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/api.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/buttons.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/comments.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/emptyview.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/gtkutil.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/identity.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/identitybutton.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/main.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/markdownpango.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/mediapreview.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/newmarkdown.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/palettebutton.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/posttopbar.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/readcontroller.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/settings.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/subentry.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/sublist.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/sublistrows.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/submit.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/redditisgtk/webviews.py</Path>
             <Path fileType="data">/usr/share/appdata/reddit-is-gtk.appdata.xml</Path>
             <Path fileType="data">/usr/share/applications/reddit-is-gtk.desktop</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/today.sam.something-for-reddit.gschema.xml</Path>
-            <Path fileType="data">/usr/share/pixmaps/reddit-is-a-dead-bird-symbolic.svg</Path>
-            <Path fileType="data">/usr/share/pixmaps/reddit-is-a-dead-bird.svg</Path>
-            <Path fileType="data">/usr/share/something-for-reddit</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/actions/reddit-detach-symbolic.symbolic.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/actions/reddit-downvote-symbolic.symbolic.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/actions/reddit-mail-reply-all-symbolic.symbolic.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/actions/reddit-mail-reply-sender-symbolic.symbolic.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/actions/reddit-novote-symbolic.symbolic.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/actions/reddit-upvote-symbolic.symbolic.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/reddit-detach-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/reddit-downvote-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/reddit-mail-reply-all-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/reddit-mail-reply-sender-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/reddit-novote-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/reddit-upvote-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/today.sam.reddit-is-gtk.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/today.sam.reddit-is-gtk-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/metainfo/reddit-is-gtk.appdata.xml</Path>
+            <Path fileType="data">/usr/share/something-for-reddit/reddit-is-gtk.gresource</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-01-31</Date>
-            <Version>0.2</Version>
+        <Update release="3">
+            <Date>2019-03-25</Date>
+            <Version>0.2.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Jarno Turkki</Name>
+            <Email>watpi@posteo.net</Email>
         </Update>
     </History>
 </PISI>
