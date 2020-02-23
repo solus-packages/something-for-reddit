@@ -1,11 +1,12 @@
 <PISI>
     <Source>
         <Name>something-for-reddit</Name>
+        <Homepage>https://github.com/samdroid-apps/something-for-reddit</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Algent Albrahimi</Name>
+            <Email>algent@protonmail.com</Email>
         </Packager>
-        <License>GPL-3.0</License>
+        <License>GPL-3.0-or-later</License>
         <PartOf>network.clients</PartOf>
         <Summary xml:lang="en">A simple Reddit client for GNOME, built for touch, mouse and VIM keyboards.</Summary>
         <Description xml:lang="en">A simple Reddit client for GNOME, built for touch, mouse and VIM keyboards.
@@ -108,12 +109,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2020-01-27</Date>
+        <Update release="5">
+            <Date>2020-02-21</Date>
             <Version>0.2.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Algent Albrahimi</Name>
+            <Email>algent@protonmail.com</Email>
         </Update>
     </History>
 </PISI>
