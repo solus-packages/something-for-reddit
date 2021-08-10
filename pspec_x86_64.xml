@@ -3,8 +3,8 @@
         <Name>something-for-reddit</Name>
         <Homepage>https://github.com/samdroid-apps/something-for-reddit</Homepage>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>network.clients</PartOf>
@@ -21,72 +21,72 @@
         <PartOf>network.clients</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/reddit-is-gtk</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/Makefile</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/Makefile.am</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/Makefile.in</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/__init__.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/__init__.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/aboutrow.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/aboutrow.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/api.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/api.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/buttons.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/buttons.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/comments.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/comments.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/emptyview.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/emptyview.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/gtkutil.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/gtkutil.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/identity.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/identity.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/identitybutton.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/identitybutton.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/main.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/main.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/mediapreview.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/mediapreview.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/newmarkdown.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/newmarkdown.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/palettebutton.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/palettebutton.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/posttopbar.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/posttopbar.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/readcontroller.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/readcontroller.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/settings.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/settings.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/subentry.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/subentry.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/sublist.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/sublist.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/sublistrows.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/sublistrows.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/submit.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/submit.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/webviews.cpython-37.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/__pycache__/webviews.cpython-37.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/aboutrow.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/api.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/buttons.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/comments.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/emptyview.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/gtkutil.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/identity.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/identitybutton.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/main.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/mediapreview.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/newmarkdown.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/palettebutton.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/posttopbar.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/readcontroller.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/settings.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/subentry.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/sublist.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/sublistrows.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/submit.py</Path>
-            <Path fileType="library">/usr/lib/python3.7/site-packages/redditisgtk/webviews.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/Makefile</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/Makefile.am</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/Makefile.in</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/__init__.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/__init__.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/aboutrow.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/aboutrow.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/api.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/api.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/buttons.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/buttons.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/comments.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/comments.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/emptyview.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/emptyview.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/gtkutil.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/gtkutil.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/identity.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/identity.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/identitybutton.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/identitybutton.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/main.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/main.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/mediapreview.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/mediapreview.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/newmarkdown.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/newmarkdown.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/palettebutton.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/palettebutton.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/posttopbar.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/posttopbar.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/readcontroller.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/readcontroller.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/settings.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/settings.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/subentry.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/subentry.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/sublist.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/sublist.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/sublistrows.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/sublistrows.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/submit.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/submit.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/webviews.cpython-39.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/__pycache__/webviews.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/aboutrow.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/api.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/buttons.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/comments.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/emptyview.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/gtkutil.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/identity.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/identitybutton.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/main.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/mediapreview.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/newmarkdown.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/palettebutton.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/posttopbar.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/readcontroller.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/settings.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/subentry.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/sublist.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/sublistrows.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/submit.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/redditisgtk/webviews.py</Path>
             <Path fileType="data">/usr/share/appdata/reddit-is-gtk.appdata.xml</Path>
             <Path fileType="data">/usr/share/applications/reddit-is-gtk.desktop</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/today.sam.something-for-reddit.gschema.xml</Path>
@@ -109,12 +109,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2020-06-18</Date>
+        <Update release="7">
+            <Date>2021-08-10</Date>
             <Version>0.2.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
